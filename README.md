@@ -1,6 +1,6 @@
 # makerdao-dai
 
-A [nuthatch](https://github.com/nightswatchhq/nuthatch) nest: **DAI on Ethereum**.
+A [nuthatch](https://github.com/nuthatch-org/nuthatch) nest: **DAI on Ethereum**.
 
 The DAI token's transfers and approvals.
 
@@ -25,7 +25,7 @@ Indexed blocks **25,791,627 to 25,811,563** and sealed **82,762 events**. Every 
 ## Run it
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/makerdao-dai
+nuthatch init --from https://github.com/nuthatch-org/makerdao-dai
 cd makerdao-dai
 nuthatch dev --dir . --backfill 50000 --seal-direct
 nuthatch sql --dir . "SELECT count(*) FROM \"c0__approval\""
